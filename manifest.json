@@ -1,0 +1,25 @@
+[
+  {
+    "guid": "f41f333d-4be5-41df-9b23-d6b5c768ac63",
+    "name": "JellySpotlight",
+    "overview": "A compact, configurable multi-title spotlight shelf for Jellyfin.",
+    "description": "Show several responsive media cards at once using Jelana's cached trends or Jellyfin's recently added items.",
+    "owner": "skijk",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial release with compact multi-title cards, responsive mobile swipe, configurable density and item count, Jelana cached Hot/New Popular sources, and Jellyfin Recently Added.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.1.0.0/JellySpotlight_0.1.0.0_jf10.11.11.zip",
+        "checksum": "40009914E7930536795BED441ACFDB10",
+        "timestamp": "2026-07-29T21:07:06Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      }
+    ]
+  }
+]
