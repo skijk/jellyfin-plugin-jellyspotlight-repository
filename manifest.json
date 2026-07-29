@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.2.3.0",
+        "changelog": "Isolate horizontal mobile shelf gestures so swiping JellySpotlight no longer switches Jellyfin from Home to Favorites, while preserving vertical page scrolling.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.2.3.0/JellySpotlight_0.2.3.0_jf10.11.11.zip",
+        "checksum": "C7B0D42167C035AA3C5F71B69C99DAFB",
+        "timestamp": "2026-07-29T22:44:45Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.2.2.0",
         "changelog": "Show Jellyfin CommunityRating as a broadly available star rating while retaining Rotten Tomatoes critic percentages when present.",
         "targetAbi": "10.11.0.0",
