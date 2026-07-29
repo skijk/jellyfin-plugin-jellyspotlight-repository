@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.1.2.0",
+        "changelog": "Keep Jelana trend cards visible when Jellyfin metadata enrichment returns no items, and query enrichment in the current user's library context.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.1.2.0/JellySpotlight_0.1.2.0_jf10.11.11.zip",
+        "checksum": "C8473785AEA45AEB22D19CAA0498CBD7",
+        "timestamp": "2026-07-29T21:21:20Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.1.1.0",
         "changelog": "Fix client configuration parsing so the spotlight shelf no longer treats an enabled plugin as disabled when Jellyfin returns camelCase JSON.",
         "targetAbi": "10.11.0.0",
