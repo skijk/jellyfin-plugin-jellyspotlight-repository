@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.2.10.0",
+        "changelog": "Mark the embedded settings script as text/javascript so Jellyfin's dashboard loader executes it, enabling configuration loading and saving.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.2.10.0/JellySpotlight_0.2.10.0_jf10.11.11.zip",
+        "checksum": "FC95F9BA34566F153052CAE5D3C4C379",
+        "timestamp": "2026-07-29T23:34:45Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.2.9.0",
         "changelog": "Save settings through a dedicated request DTO instead of deserializing into Jellyfin's base plugin configuration type, with detailed HTTP errors if persistence fails.",
         "targetAbi": "10.11.0.0",
