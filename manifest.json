@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.2.2.0",
+        "changelog": "Show Jellyfin CommunityRating as a broadly available star rating while retaining Rotten Tomatoes critic percentages when present.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.2.2.0/JellySpotlight_0.2.2.0_jf10.11.11.zip",
+        "checksum": "EE14C7CD1CD5DEB2324DDDE17310D0FC",
+        "timestamp": "2026-07-29T21:58:07Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.2.1.0",
         "changelog": "Add stable placement before or after JellyBulletin, reduce feature card height, improve metric readability, and show Jellyfin critic ratings as Rotten Tomatoes percentages when available.",
         "targetAbi": "10.11.0.0",
