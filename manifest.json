@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.2.0.0",
+        "changelog": "Add three independently configurable spotlight rows and redesign cards as larger, horizontally scrollable feature panels with Feature and Cinematic sizes.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.2.0.0/JellySpotlight_0.2.0.0_jf10.11.11.zip",
+        "checksum": "2385870B0FBF941C8F1717BEF32C3A55",
+        "timestamp": "2026-07-29T21:39:39Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.1.4.0",
         "changelog": "Stop the home-page observer from reacting to JellySpotlight's own rendering and causing continuous flashing.",
         "targetAbi": "10.11.0.0",
