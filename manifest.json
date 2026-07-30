@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.3.2.0",
+        "changelog": "Always fetch the current saved configuration after a Jellyfin restart and explicitly disable settings response caching, preventing stale or duplicated default rows.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.3.2.0/JellySpotlight_0.3.2.0_jf10.11.11.zip",
+        "checksum": "0F61C2E4DDDB4BEF76C1BEA9B4575368",
+        "timestamp": "2026-07-30T00:25:11Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.3.1.0",
         "changelog": "Isolate each Spotlight row so an unavailable optional source cannot hide working rows. Coming soon now explicitly requires Radarr Watch 0.2.0.0 or newer.",
         "targetAbi": "10.11.0.0",
