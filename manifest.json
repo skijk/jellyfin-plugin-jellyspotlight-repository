@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.3.0.0",
+        "changelog": "Add a Coming soon source backed by Radarr Watch, showing monitored and unavailable movies ordered by upcoming digital release with approximate dates and server-proxied artwork.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.3.0.0/JellySpotlight_0.3.0.0_jf10.11.11.zip",
+        "checksum": "C3176A0D8E1FA5B27D6C37B53CBF53D0",
+        "timestamp": "2026-07-30T00:01:52Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.2.11.0",
         "changelog": "Fix the settings page script being corrupted by Jellyfin's translation placeholder parser, so configuration loads and saves correctly.",
         "targetAbi": "10.11.0.0",
