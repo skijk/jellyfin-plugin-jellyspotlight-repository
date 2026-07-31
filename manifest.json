@@ -3,11 +3,23 @@
     "guid": "f41f333d-4be5-41df-9b23-d6b5c768ac63",
     "name": "JellySpotlight",
     "overview": "Feature rows for Jellyfin Web. Requires File Transformation and Jelana.",
-    "description": "Show responsive media rows using Jelana's hourly cache. Radarr Watch optionally enables Coming soon, and JellyBulletin placement integration is optional.",
+    "description": "Show responsive media rows using Jelana's hourly cache. Arr Watch optionally enables movies and season premieres in Coming soon, and JellyBulletin placement integration is optional.",
     "owner": "skijk",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
+      {
+        "version": "0.3.8.0",
+        "changelog": "Add monitored Sonarr season premieres to Coming soon through Arr Watch 0.3.0.0. Movies and new seasons are merged chronologically; season cards show the season number and premiere date.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.3.8.0/JellySpotlight_0.3.8.0_jf10.11.11.zip",
+        "checksum": "787C8014AF2206D8053EB523D471AC21",
+        "timestamp": "2026-07-31T15:39:47Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
       {
         "version": "0.3.7.0",
         "changelog": "Publish dependency documentation in the plugin, catalog and repository. File Transformation and Jelana are required; Radarr Watch and JellyBulletin integrations are optional.",

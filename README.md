@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repositor
 | File Transformation | Required | Loads the Spotlight web assets |
 | Jelana | Required | Supplies hourly cached analytics rows |
 | Playback Reporting | Transitive | Required by Jelana; Spotlight never queries it directly |
-| Radarr Watch | Optional | Enables the **Coming soon** source |
+| Arr Watch | Optional | Supplies movies and season premieres for **Coming soon** |
 | JellyBulletin | Optional | Keeps deterministic placement around bulletin panels |
 
 Install File Transformation, Playback Reporting and Jelana before JellySpotlight.
