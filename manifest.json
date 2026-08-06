@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.3.9.0",
+        "changelog": "Align Spotlight rows with Jellyfin's native page margins, add breathing room above the first row, and keep cards contained within narrow mobile viewports.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.3.9.0/JellySpotlight_0.3.9.0_jf10.11.11.zip",
+        "checksum": "52A2A0FB2E281684E1B1AE3704CDDFD7",
+        "timestamp": "2026-08-06T19:15:53Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.3.8.0",
         "changelog": "Add monitored Sonarr season premieres to Coming soon through Arr Watch 0.3.0.0. Movies and new seasons are merged chronologically; season cards show the season number and premiere date.",
         "targetAbi": "10.11.0.0",
