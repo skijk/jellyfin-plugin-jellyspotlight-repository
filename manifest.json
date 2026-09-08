@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.4.0.0",
+        "changelog": "Rebuild JellySpotlight for Jellyfin 12.0 final and .NET 10. Requires File Transformation 3.0 and the Jellyfin 12 build of Jelana; Arr Watch remains optional for Coming soon.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.4.0.0/JellySpotlight_0.4.0.0_jf12.0.0.zip",
+        "checksum": "E0B845C746322919FF62EDD5833D92D4",
+        "timestamp": "2026-09-08T21:15:16Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.3.10.0",
         "changelog": "Extend Spotlight tracks to the right viewport edge like Jellyfin's native horizontal rows, making the partially visible next card clearly signal horizontal scrolling on desktop and mobile.",
         "targetAbi": "10.11.0.0",
