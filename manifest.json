@@ -10,7 +10,7 @@
     "versions": [
       {
         "version": "0.4.0.0",
-        "changelog": "Rebuild JellySpotlight for Jellyfin 12.0 final and .NET 10. Requires File Transformation 3.0 and the Jellyfin 12 build of Jelana; Arr Watch remains optional for Coming soon.",
+        "changelog": "Jellyfin 12 only: rebuild JellySpotlight for Jellyfin 12.0 final and .NET 10. Requires File Transformation 3.0 and Jelana 0.2.x. Jellyfin 10.11 servers must use the retained 0.3.x releases.",
         "targetAbi": "12.0.0.0",
         "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.4.0.0/JellySpotlight_0.4.0.0_jf12.0.0.zip",
         "checksum": "E0B845C746322919FF62EDD5833D92D4",
