@@ -9,6 +9,18 @@
     "imageUrl": "https://raw.githubusercontent.com/skijk/jellyfin-plugin-jellyspotlight-repository/main/logo.png",
     "versions": [
       {
+        "version": "0.4.2.0",
+        "changelog": "Jellyfin 12 only: align Trending with Jelana's qualified unique viewers. Each person counts once per title, viewer growth replaces active-day metrics, and updated cache versions ensure Jellyfin Web loads the new client immediately.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/skijk/jellyfin-plugin-jellyspotlight-repository/releases/download/0.4.2.0/JellySpotlight_0.4.2.0_jf12.0.0.zip",
+        "checksum": "C78A5F8DFB0998BBC2186942D759084A",
+        "timestamp": "2026-10-12T16:44:07Z",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
+          "e39f03aa-67c1-49f3-941e-491ce0ac47e5"
+        ]
+      },
+      {
         "version": "0.4.1.0",
         "changelog": "Jellyfin 12 only: hide stale Jelana entries whose Jellyfin items no longer exist, preventing broken duplicate cards after media is replaced. Item IDs are matched case-insensitively.",
         "targetAbi": "12.0.0.0",
